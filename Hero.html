@@ -1,0 +1,90 @@
+<div class="hero-image">
+  <div class="hero-text">
+    <h1>Crypto Pantheon</h1>
+    <p>Discover world of digital freedom</p>
+    <button class="button">Enter</button>
+  </div>
+</div>
+
+<div class="grid-container">
+  
+  <div class="grid-child-1">
+  </div>
+  
+  <div class="grid-child-2">
+  </div>
+
+  <div class="grid-child-3">
+  </div>
+
+  <div class="grid-child-4">
+  </div>
+
+  <div class="grid-child-5">
+  </div>
+  
+</div>
+
+<style>
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Bitcoin1.jpg");
+
+  /* Set a specific height */
+  height: 70%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    height: 30%;
+}
+.grid-child-1{
+  background-image: url("BTC.png");
+  background-repeat: no-repeat;
+  background-repadding: ;ver;
+  padding: 10px;
+}
+.grid-child-2{
+  background-image: url("ETH.png");
+  background-repeat: no-repeat;
+  background-resize: cover;
+}
+.grid-child-3{
+  background-image: url("Cardano.png");
+  background-repeat: no-repeat;
+  background-resize: cover;
+}
+.grid-child-4{
+  background-image: url("Litecoin.png");
+  background-repeat: no-repeat;
+  background-resize: cover;
+}
+.grid-child-5{
+  background-image: url("Monero.png");
+  background-repeat: no-repeat;
+  background-resize: cover;
+}
+.button{
+  hight: 30px; 
+  width: 90px;
+  background-color: tomato;
+  background-border: white;
+}
+</style>
